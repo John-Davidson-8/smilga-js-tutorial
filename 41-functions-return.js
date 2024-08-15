@@ -21,14 +21,28 @@
 
 // Another way of doing it is to use returns as below. I have taken away the console logs, and now the returns (calculations/data) are going to be in the array 'dimensions.'
 
+// const wallHeight = 80;
+
+// function calculate(value) {
+//   const newValue = value * 2.54;
+//   return newValue;
+// could also just do the following:
+// return value * 2.54;
+// Also, please be aware that no code will run after the 'return' as this is all JS wants to do in the function. The return is final!
+
+// const width = calculate(100);
+// const height = calculate(wallHeight);
+
+// const dimensions = [width, height];
+// console.log(dimensions);
+
 const wallHeight = 80;
 
 function calculate(value) {
-  const newValue = value * 2.54;
-  return newValue;
-  // could also just do the following:
-  // return value * 2.54;
-  // Also, please be aware that no code will run after the 'return' as this is all JS wants to do in the function. The return is final!
+  // console.lot("the value in cm is : " + value * 2.54 + " cm");
+  // const newValue = value * 2.54;
+  // return newValue; OR
+  return value * 2.54;
 }
 
 const width = calculate(100);

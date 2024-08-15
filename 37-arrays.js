@@ -11,3 +11,11 @@ let bestFriend = friends[2];
 friends[4] = "anna";
 console.log(friends[4]);
 console.log(bestFriend);
+
+// Chapter 38 Arrays Challenge
+
+const fruits = ["apple", "banana", "pear", "orange", 34];
+let firstFruit = fruits[0];
+fruits[4] = "mango";
+console.log(firstFruit);
+console.log(fruits);
