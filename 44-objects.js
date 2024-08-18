@@ -27,3 +27,34 @@ person.name = "bob";
 console.log(person.name); // this is one way to access the properties(keys) in the object, by dot.notation
 console.log(person.siblings[2]);
 person.greeting();
+
+// Objects Challenge
+/* Objects #6 
+
+1. create car object
+2. add make, model, year, colors (array), hybrid (boolean keys)
+3. add two methods (drive and stop)
+4. in the function body setup log with random text
+5. log make
+6. log first color
+7. invoke both methods
+*/
+
+const car = {
+  make: "ford",
+  model: "focus",
+  year: 1970,
+  color: ["black", "blue", "red", "white"],
+  hybrid: false,
+  drive: function () {
+    console.log("driving");
+  },
+  stop() {
+    // this is the new ES6 way of doing methods within objects
+    console.log("stopping");
+  },
+};
+console.log(car.make);
+console.log(car.color[0]);
+car.drive();
+car.stop();
