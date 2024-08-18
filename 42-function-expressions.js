@@ -22,7 +22,7 @@ const thirdValue = add(5, 6);
 const values = [firstValue, secondValue, thirdValue];
 console.log(values);
 
-// ES6 came up with a shortcut for functions. Below is an example:
+// ES6 came up with a shortcut for functions. They are called arrow functions. Below is an example:
 
 const multiply = (num1, num2) => num1 * num2;
 /*the last bit after the arrow is the function calculation and return, the first part in parenthesis is the function parameters */
