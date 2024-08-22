@@ -17,6 +17,8 @@ const person = {
   },
 };
 
+// any function inside an object becomes a method
+
 // can also assign properties to other variables as below:
 const age = person.age;
 console.log(age);
@@ -50,7 +52,7 @@ const car = {
     console.log("driving");
   },
   stop() {
-    // this is the new ES6 way of doing methods within objects
+    // this is the new ES6 way of doing methods within objects as opposed to old way above for drive.
     console.log("stopping");
   },
 };
