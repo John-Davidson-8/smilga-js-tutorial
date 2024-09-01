@@ -35,7 +35,7 @@
 // console.log(specificNames);
 // console.log(allNames);
 
-// Exercise Full Name - even if original array is changed it still works
+// Exercise (ch.60) Full Name - even if original array is changed it still works
 
 const names = ["anna", "susy", "bob", "john", "susan"];
 const lastName = "shakeandbake";
