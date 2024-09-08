@@ -7,7 +7,8 @@ const food = [70, 30, 20];
 function calculateTotal(arr) {
   let total = 0;
   for (let i = 0; i < arr.length; i++) {
-    total += arr[i];
+    // console.log(arr[i]); // to check if it is working.
+    total += arr[i]; // this adds up the items in array to a total
   }
   return total;
 }
